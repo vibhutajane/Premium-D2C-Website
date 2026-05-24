@@ -249,8 +249,19 @@ body {
   color: #fff;
   text-decoration: none;
   display: flex;
+  flex-direction: column;
   align-items: center;
   gap: 0.5rem;
+}
+
+.logo-subtitle {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: 0.85rem;
+  color: hsl(var(--text-secondary));
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  text-align: center;
 }
 
 .logo span {
@@ -1670,3 +1681,44 @@ body {
     width: 100%;
   }
 }
+/* Additional mobile tweaks */
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 2.2rem;
+  }
+  .hero-desc {
+    font-size: 0.9rem;
+  }
+  .hero-ctas {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .hero-image {
+    max-width: 90%;
+  }
+  .pricing-cards-container {
+    grid-template-columns: 1fr;
+    max-width: 100%;
+    margin: 2rem auto 0 auto;
+  }
+  .price-card {
+    padding: 1.5rem;
+  }
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .quiz-options {
+    grid-template-columns: 1fr;
+  }
+  .nav-links {
+    display: none;
+  }
+  .menu-toggle {
+    display: block;
+  }
+  .navbar-container {
+    padding: 0 1rem;
+  }
+}
+
