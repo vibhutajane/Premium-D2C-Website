@@ -251,7 +251,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.2rem;
 }
 
 .logo-subtitle {
@@ -263,6 +263,7 @@ body {
   letter-spacing: 0.08em;
   text-align: center;
 }
+
 
 .logo span {
   color: hsla(var(--accent-ruby), 1);
