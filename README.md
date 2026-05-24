@@ -12,6 +12,13 @@ This repository hosts the **Aetheris D2C Premium Website** – a modern, high‑
 
 > **Note:** The UI is built with vanilla HTML, CSS, and JavaScript – no frameworks are required.
 
+### Recent Updates
+- Deleted `mobile` branch; master restored to commit `23b7dd8`.
+- Fixed merge conflict in `app.js` and added responsive hamburger menu.
+- Reverted repository to the stable version with proper logo spacing and subtitle alignment.
+- Live development server can be started with `python -m http.server 8000`.
+
+
 ---
 
 ## Tech Stack
