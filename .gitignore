@@ -1,0 +1,24 @@
+# General
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+npm-debug.log
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Build artifacts
+/dist/
+/build/
+
+# Images generated assets
+*.png
+*.jpg
+*.jpeg
+*.svg
+
+# Log files
+*.log
